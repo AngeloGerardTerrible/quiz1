@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Http\Controllers\inventoryController;
+use App\Http\Controllers\InventoryController;
 
 Route::get('/', function () {
     return view('welcome');
